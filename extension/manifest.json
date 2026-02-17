@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Memories Wall",
+    "version": "1.0",
+    "description": "A new tab page that displays your cherished memories.",
+    "permissions": [
+        "storage"
+    ],
+    "host_permissions": [
+        "http://localhost:3000/*"
+    ],
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Upload Memory"
+    },
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    }
+}
